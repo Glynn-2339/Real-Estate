@@ -43,7 +43,7 @@ You can test CRUD functionality through the Django admin interface.
 **API Endpoints**
 The following endpoints are available:
 
-Listings:
+##Listings:
 GET /api/listings/ - List all listings
 POST /api/listings/ - Create a new listing
 GET /api/listings/<int:pk>/ - Retrieve a specific listing
