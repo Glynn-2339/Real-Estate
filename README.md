@@ -25,41 +25,44 @@ This is a Django-based API for managing real estate listings and reviews agents 
 **On Windows:**   --venv\Scripts\activate
 
 **Install Dependencies:**
-pip install -r requirements.txt
-pip install django djangorestframework
+--pip install -r requirements.txt
+--pip install django djangorestframework
 
 **Create and Apply Migrations:**
 
-python manage.py makemigrations
-python manage.py migrate
+--python manage.py makemigrations
+--python manage.py migrate
 
 **Create a Superuser:**
-python manage.py createsuperuser
+--python manage.py createsuperuser
+--Remember your username/email and password as you will use this to log into the admin dashboard
 
 **Running the Project**
-python manage.py runserver
+--python manage.py runserver
 
-Visit http://127.0.0.1:8000/ in your browser to access the application. For the admin interface, navigate to http://127.0.0.1:8000/admin/.
+--Visit http://127.0.0.1:8000/ in your browser to access the application. 
+--For the admin interface, navigate to http://127.0.0.1:8000/admin/.
 
 **Testing**
-You can test CRUD functionality through the Django admin interface.
+--You can test CRUD functionality through the Django admin interface.
 
 **API Endpoints**
-  The following endpoints are available:
+--The following endpoints are available:
 
-##Listings:
-GET /api/listings/ - List all listings
-POST /api/listings/ - Create a new listing
-GET /api/listings/<int:pk>/ - Retrieve a specific listing
-PUT /api/listings/<int:pk>/ - Update a specific listing
-DELETE /api/listings/<int:pk>/ - Delete a specific listing
+**Listings:**
+--GET /api/listings/ - List all listings
+--POST /api/listings/ - Create a new listing
+--GET /api/listings/<int:pk>/ - Retrieve a specific listing
+--PUT /api/listings/<int:pk>/ - Update a specific listing
+--DELETE /api/listings/<int:pk>/ - Delete a specific listing
 
-Reviews:
-GET /api/reviews/ - List all reviews
-POST /api/reviews/ - Create a new review
-GET /api/reviews/<int:pk>/ - Retrieve a specific review
-PUT /api/reviews/<int:pk>/ - Update a specific review
-DELETE /api/reviews/<int:pk>/ - Delete a specific review
+**Reviews:**
+--GET /api/reviews/ - List all reviews
+--POST /api/reviews/ - Create a new review
+--GET /api/reviews/<int:pk>/ - Retrieve a specific review
+--PUT /api/reviews/<int:pk>/ - Update a specific review
+--DELETE /api/reviews/<int:pk>/ - Delete a specific review
 
 **Admin Interface**
-Log in to the admin interface at http://127.0.0.1:8000/admin/ using the superuser credentials created earlier. You can manage listings and reviews through this interface.
+--Log in to the admin interface at http://127.0.0.1:8000/admin/ using the superuser credentials created earlier. 
+--You can manage listings agents properties and reviews through this interface.
