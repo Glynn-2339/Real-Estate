@@ -33,12 +33,12 @@ This is a Django-based API for managing real estate listings and reviews agents 
 --python manage.py createsuperuser  
 --Remember your username/email and password as you will use this to log into the admin dashboard
 
-##Running the Project  
+## Running the Project  
 --python manage.py runserver  
 --Visit http://127.0.0.1:8000/ in your browser to access the application.   
 --For the admin interface, navigate to http://127.0.0.1:8000/admin/.
 
-##Testing  
+## Testing  
 --You can test CRUD functionality through the Django admin interface.
 
 **API Endpoints**  
@@ -58,6 +58,6 @@ This is a Django-based API for managing real estate listings and reviews agents 
 --PUT /api/reviews/<int:pk>/ - Update a specific review  
 --DELETE /api/reviews/<int:pk>/ - Delete a specific review
 
-##Admin Interface  
+## Admin Interface  
 --Log in to the admin interface at http://127.0.0.1:8000/admin/ using the superuser credentials created earlier.   
 --You can manage listings agents properties and reviews through this interface.
