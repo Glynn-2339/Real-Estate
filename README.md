@@ -14,21 +14,22 @@ This is a Django-based API for managing real estate listings and reviews agents 
 
 **Clone the Repository:**
 
-git clone
+--git clone
 
 **Create a Virtual Environment:**
 
-python -m venv venv
+--python -m venv venv
 
 **Activate the Virtual Environment:**
 
-**On Windows:**  venv\Scripts\activate
+**On Windows:**   --venv\Scripts\activate
 
 **Install Dependencies:**
 pip install -r requirements.txt
 pip install django djangorestframework
 
 **Create and Apply Migrations:**
+
 python manage.py makemigrations
 python manage.py migrate
 
